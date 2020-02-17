@@ -14,7 +14,7 @@ $(function () {
             data: newDevouredState
         }).then(
             function () {
-                console.log("changed devoured to", newDevoured);
+                console.log("changed devoured to", newDevouredState);
                 location.reload();
             }
         );
